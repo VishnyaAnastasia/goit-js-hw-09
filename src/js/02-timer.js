@@ -65,6 +65,7 @@ function timerUpdater() {
   if (deltaTime === 0) {
     Notify.success('THE END');
     clearTimeout(timerID);
+    input.disabled = false;
     return;
   }
   deltaTime = deltaTime - 1000;
