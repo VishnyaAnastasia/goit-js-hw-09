@@ -1,0 +1,53 @@
+body {
+  background-color: #ffc0cb;
+}
+
+.input-block {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  width: 300px;
+  height: 45px;
+  font-size: 20px;
+  text-align: center;
+  background-color: white;
+  border-radius: 5;
+  border: none;
+}
+
+button {
+  width: 45px;
+  height: 45px;
+  background-color: white;
+  border-radius: 5;
+  border: none;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.timer {
+  display: flex;
+  gap: 30px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.value {
+  font-size: 50px;
+  font-weight: 700;
+  color: white;
+}
+
+.label {
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+}
